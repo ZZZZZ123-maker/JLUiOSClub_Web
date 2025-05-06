@@ -17,11 +17,7 @@ description: 移动应用赛宣讲会
 
 ## 活动亮点
 
-![活动海报](1.png){.custom-img}
-.custom-img {
-  width: 400px;
-  height: auto; 
-}
+![活动海报](1.png){style="width:auto; height:auto;"}
 
 “移动应用创新赛”是 “中国高校计算机大赛” 所设立的四个竞赛模块之一，是由 Apple 与浙江大学联合举办、面向高校学员、供应链员工、K12 组别学生推出的基于 iOS/iPadOS 平台设计开发应用的竞赛。
 
@@ -45,17 +41,22 @@ description: 移动应用赛宣讲会
 
 ## 🔥 加入2024-MAIC竞赛群
 
-![竞赛群二维码](2.jpg){.custom-img}
-.custom-img {
-  width: 400px;
-  height: auto; 
-}
+![竞赛群二维码](2.jpg){style="width:auto; height:auto;"}
 
 ## 关注 JLU iOS Club
 
-<dualQRCode/>
-
 <script setup>
-import {ElTimeline, ElTimelineItem, ElButton} from 'element-plus';
-import { useRouter } from 'vitepress';
-import dualQRCode from '/components/dualQRCode.vue';
+import { ElButton } from 'element-plus'
+</script>
+
+<style scoped>
+.el-button a {
+    color: white;
+    text-decoration: none;
+}
+.el-button {
+    display: block;
+    width: 12rem;
+    margin: 0 auto;
+}
+</style>
