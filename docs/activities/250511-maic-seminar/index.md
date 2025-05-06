@@ -19,7 +19,7 @@ description: 移动应用赛官方宣讲会
 
 ![活动海报](1.png){.custom-img}
 .custom-img {
-  width: 500px;
+  width: 400px;
   height: auto; 
 }
 
@@ -45,4 +45,8 @@ description: 移动应用赛官方宣讲会
 
 ## 🔥 加入2024-MAIC竞赛群
 
-![点击图片可放大](2.jpg)
+![竞赛群二维码](2.jpg){.custom-img}
+.custom-img {
+  width: 400px;
+  height: auto; 
+}
