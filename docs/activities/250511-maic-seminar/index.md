@@ -42,20 +42,3 @@ description: 移动应用赛宣讲会
 ## 🔥 加入2024-MAIC竞赛群
 
 ![竞赛群二维码](2.jpg){style="width:auto; height:auto;"}
-
-## 关注 JLU iOS Club
-
-<script setup>
-import { ElButton } from  'element-plus';
-import { useRouter } from 'vitepress';
-import dualQRCode from '/components/dualQRCode.vue';
-
-const router = useRouter()
-</script>
-
-<style scoped>
-.vp-doc blockquote {
-text-align: center;
-padding: 1rem 0;
-}
-</style>
