@@ -17,7 +17,7 @@ description: 移动应用赛官方宣讲会
 
 ## 活动亮点
 
-![活动海报](poster.jpg)
+![活动海报](1.png)
 
 “移动应用创新赛”是 “中国高校计算机大赛” 所设立的四个竞赛模块之一，是由 Apple 与浙江大学联合举办、面向高校学员、供应链员工、K12 组别学生推出的基于 iOS/iPadOS 平台设计开发应用的竞赛。
 
@@ -32,53 +32,13 @@ description: 移动应用赛官方宣讲会
 
 ## 活动流程
 
-<el-timeline style="max-width: 600px">
-  <el-timeline-item
-    v-for="(step, index) in steps"
-    :key="index"
-    :timestamp="step.time"
-    type="primary"
-  >
-    <span style="font-weight: bold;margin: 0;">{{ step.name }}</span>
-    <br></br>主讲人：{{ step.people }}
-  </el-timeline-item>
-</el-timeline>
+1️⃣吉林大学MAIC的指导教师谷方明老师进行有关移动应用创新赛的讲解和指导🎉🎉🎉
+
+2️⃣上届获奖同学关于比赛经验的分享🎉🎉🎉
+
+🌈竞赛介绍
+移动应用创新赛，是2017年中国高校计算机大赛( China Collegiate Computing Contest)所设立的四个竞赛模块之一，本届大赛由浙江大学与苹果公司承办。
 
 ## 🔥 加入2024-MAIC竞赛群
 
-![点击图片可放大](/competitions/maic/maic-qr.jpg)
-
-## 关注 JLU iOS Club
-
-<dualQRCode/>
-
-<script setup>
-import {ElTimeline, ElTimelineItem, ElButton} from 'element-plus';
-import { useRouter } from 'vitepress';
-import dualQRCode from '/components/dualQRCode.vue';
-
-const steps = [
-  {
-    name: "活动开场",
-    people: "JLU iOS Club",
-    time: "13:30"
-  },
-  {
-    name: "移动应用创新赛宣讲",
-    people: "上海交通大学 董占勋",
-    time: "13:30～14:40"
-  },
-  {
-    name: "互动答疑+合影",
-    people: "组委会秘书 曹颖萍",
-    time: "14:40～15:00"
-  },
-];
-const router = useRouter();
-</script>
-
-<style scoped>
-ul.el-timeline {
-    list-style: none;
-}
-</style>
+![点击图片可放大](2.jpg)
