@@ -50,3 +50,12 @@ description: 移动应用赛宣讲会
   width: 400px;
   height: auto; 
 }
+
+## 关注 JLU iOS Club
+
+<dualQRCode/>
+
+<script setup>
+import {ElTimeline, ElTimelineItem, ElButton} from 'element-plus';
+import { useRouter } from 'vitepress';
+import dualQRCode from '/components/dualQRCode.vue';
