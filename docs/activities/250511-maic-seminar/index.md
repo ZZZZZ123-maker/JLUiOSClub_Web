@@ -46,17 +46,16 @@ description: 移动应用赛宣讲会
 ## 关注 JLU iOS Club
 
 <script setup>
-import { ElButton } from 'element-plus'
+import { ElButton } from  'element-plus';
+import { useRouter } from 'vitepress';
+import dualQRCode from '/components/dualQRCode.vue';
+
+const router = useRouter()
 </script>
 
 <style scoped>
-.el-button a {
-    color: white;
-    text-decoration: none;
-}
-.el-button {
-    display: block;
-    width: 12rem;
-    margin: 0 auto;
+.vp-doc blockquote {
+text-align: center;
+padding: 1rem 0;
 }
 </style>
