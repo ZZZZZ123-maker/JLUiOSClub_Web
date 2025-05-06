@@ -1,6 +1,6 @@
 ---
-title: MAIC 官方宣讲会
-description: 移动应用赛官方宣讲会
+title: MAIC 宣讲会
+description: 移动应用赛宣讲会
 ---
 
 # 移动应用创新赛——官方宣讲会来啦！
